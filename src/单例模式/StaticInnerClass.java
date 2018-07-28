@@ -6,10 +6,10 @@ public class StaticInnerClass {
 	}
 	
 	private static class InnerClass{
-		private static StaticInnerClass instance = new StaticInnerClass();
+		private static final StaticInnerClass instance = new StaticInnerClass();
 	}
 	
-	public static StaticInnerClass getInstance(){
+	public static final StaticInnerClass getInstance(){
 		return InnerClass.instance;
 	}
 }
