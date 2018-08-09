@@ -1,7 +1,5 @@
 package 组合模式;
 
-import java.util.jar.Attributes.Name;
-
 public class Leaf extends Component {
 	
 	private String name;
